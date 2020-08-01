@@ -12,22 +12,24 @@ router.post("/api/workouts", (req, res) =>{
 })
 
 router.get("/api/workouts", (req, res) =>{
+  
   Workout.find()
     .then( dbWorkouts =>{
       res.json(dbWorkouts);
     } )
     .catch( err =>{
+      console.log(err);
       res.status("401").json(err);
     })
 });
 
 router.put("/api/workouts/:id", (req, res) =>{
-  console.log(req.body)
-  console.log(req.params.id);
+
   Workout.findByIdAndUpdate(
     req.params.id,
     { $push: { exercises: req.body} },
     {new: true, runValidators: true }
+
 
 )
 .then( dbWorkouts =>{
