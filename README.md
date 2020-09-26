@@ -8,8 +8,7 @@ Table of Contents
 4. [License](#license)
 5. [Contributers](#contributers)
 6. [Tests](#tests)
-7. [GitHub Profile Picture](#developer)
-8. [GitHub Email](#contact)
+
 ---
 
 #Description:  
