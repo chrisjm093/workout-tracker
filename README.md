@@ -29,8 +29,8 @@ App is hosted at https://the-fitness-tracker.herokuapp.com/ for demonstration. R
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 #Contributors: 
--- 
-Christopher Marti
+--
+chrisjm093
 
 #Tests:   
 --
@@ -39,10 +39,3 @@ No testing software used.
 #Developer:  
 --
 ## chrisjm093  
-
-![GitHub Profile Photo](https://github.com/chrisjm093.png)
-
-#Contact: 
--- 
-chrisjm093@gmail.com
-
